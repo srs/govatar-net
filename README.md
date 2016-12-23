@@ -1,3 +1,5 @@
+<img align="right" src="https://raw.githubusercontent.com/srs/govatar-net/master/misc/logo.jpeg">
+
 # Tiny Server in GO serving avatars
 
 This is a tiny server (written in GO) that serves unique avatars based on a string-hash. This string-hash can
