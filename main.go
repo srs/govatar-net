@@ -106,14 +106,15 @@ func serveAvatar(writer http.ResponseWriter, request *http.Request) {
 }
 
 func main() {
-	addr := os.Getenv("SERVER_ADDR")
-	if addr == "" {
-		addr = ":8000"
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8000"
 	}
 
 	router := mux.NewRouter()
 	router.HandleFunc("/{gender}/{hash}.{ext}", serveAvatar).Methods("GET")
 
+	addr := ":" + port
 	log.Println("Govatar Net " + Version)
 	log.Println("Serving avatars from " + addr + "...")
 	log.Fatal(http.ListenAndServe(addr, router))
