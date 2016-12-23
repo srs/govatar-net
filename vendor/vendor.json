@@ -1,0 +1,37 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "g/V4qrXjUGG9B+e3hB+4NAYJ5Gs=",
+			"path": "github.com/gorilla/context",
+			"revision": "08b5f424b9271eedf6f9f0ce86cb9396ed337a42",
+			"revisionTime": "2016-08-17T18:46:32Z"
+		},
+		{
+			"checksumSHA1": "urMd7A9QPAJYY0GZJL9qBhlUmD8=",
+			"path": "github.com/gorilla/mux",
+			"revision": "757bef944d0f21880861c2dd9c871ca543023cba",
+			"revisionTime": "2016-09-20T23:08:13Z"
+		},
+		{
+			"checksumSHA1": "r5eQHkttko6kxroDEENXbmXKrSs=",
+			"path": "github.com/nfnt/resize",
+			"revision": "891127d8d1b52734debe1b3c3d7e747502b6c366",
+			"revisionTime": "2016-07-24T20:39:20Z"
+		},
+		{
+			"checksumSHA1": "YLkozeh91B3hLGIQGmAmJ0NkXjs=",
+			"path": "github.com/o1egl/govatar",
+			"revision": "c921e141a746a8ad155ebc62081f3399e6fce300",
+			"revisionTime": "2016-12-11T22:29:27Z"
+		},
+		{
+			"checksumSHA1": "UhXojjZZFRXy3F0BURvXEBgGrC4=",
+			"path": "github.com/skarademir/naturalsort",
+			"revision": "69a5d87bef620f77ee8508db30c846b3b84b111e",
+			"revisionTime": "2015-07-15T04:40:55Z"
+		}
+	],
+	"rootPath": "github.com/srs/govatar-net"
+}
