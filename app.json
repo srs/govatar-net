@@ -1,0 +1,12 @@
+{
+  "name": "Govatar-Net",
+  "description": "Tiny Server in GO serving avatars.",
+  "keywords": [
+    "avatar",
+    "go"
+  ],
+  "image": "heroku/go:1.6",
+  "mount_dir": "src/github.com/srs/govatar-net",
+  "website": "http://github.com/srs/govatar-net",
+  "repository": "http://github.com/srs/govatar-net"
+}
