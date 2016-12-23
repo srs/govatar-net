@@ -2,7 +2,7 @@
 
 This is a tiny server (written in GO) that serves unique avatars based on a string-hash. This string-hash can
 be anything but usually the email or username. The avatars is rendered using the amazing 
-(Govatar)[https://github.com/o1egl/govatar] library. 
+[Govatar](https://github.com/o1egl/govatar) library. 
 
 ## Installing
 
@@ -18,7 +18,7 @@ You can also use the `Makefile` for building on OSX, Windows and Linux:
 $ make build
 ```
 
-And if you are using (Docker)[https://www.docker.com/]:
+And if you are using [Docker](https://www.docker.com/):
 
 ```
 $ docker run -d -p 8000:8000 govatar-net 
