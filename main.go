@@ -15,6 +15,10 @@ import (
 	"os"
 )
 
+var (
+	Version = "0.1.0"
+)
+
 func parseGender(str string) (govatar.Gender, []int) {
 	maxAssets := make([]int, 6)
 	maxAssets[0] = len(govatar.Data.Background)
@@ -110,6 +114,7 @@ func main() {
 	router := mux.NewRouter()
 	router.HandleFunc("/{gender}/{hash}.{ext}", serveAvatar).Methods("GET")
 
-	log.Println("Serving avatars from " + addr)
+	log.Println("Govatar Net " + Version)
+	log.Println("Serving avatars from " + addr + "...")
 	log.Fatal(http.ListenAndServe(addr, router))
 }
