@@ -1,8 +1,8 @@
 # Tiny Server in GO serving avatars
 
 This is a tiny server (written in GO) that serves unique avatars based on a string-hash. This string-hash can
-be anything but usually the email or username. The avatars is rendered using the amazing 
-[Govatar](https://github.com/o1egl/govatar) library. 
+be anything but usually the email or username. The avatars is rendered using the amazing
+[Govatar](https://github.com/o1egl/govatar) library.
 
 ## Installing
 
@@ -21,13 +21,12 @@ $ make build
 And if you are using [Docker](https://www.docker.com/):
 
 ```
-$ docker run -d -p 8000:8000 govatar-net 
+$ docker run -d -p 8000:8000 govatar-net
 ```
 
 ## Using
 
-When starting the server it will default start on port `8000`. You can change this by setting the OS environment
-variable `SERVER_ADDR`. The server exposes one endpoint that renders the avatar. 
+When starting the server it will default start on port `8000`. You can change this by setting the OS environment variable `PORT`. The server exposes one endpoint that renders the avatar.
 
 ```
 http://localhost:8000/{gender}/{hash}.{ext}?size={size}
@@ -47,6 +46,16 @@ http://localhost:8080/m/mr@bar.com
 http://localhost:8080/f/miss@bar.com
 http://localhost:8080/f/miss@bar.com?size=200
 ```
+
+# Demo Server
+
+I have set up a demo server on Heroku (https://govatar.herokuapp.com) that you
+can try out. It's a free instance so it can be pretty slow.
+
+* https://govatar.herokuapp.com/m/mr@bar.com
+* https://govatar.herokuapp.com/f/miss@bar.com
+* https://govatar.herokuapp.com/f/miss@bar.com?size=200
+
 
 ## License
 
