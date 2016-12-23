@@ -20,7 +20,7 @@ You can also use the `Makefile` for building on OSX, Windows and Linux:
 $ make build
 ```
 
-And if you are using [Docker](https://www.docker.com/):
+And if you are using [Docker](https://hub.docker.com/r/stenrs/govatar-net/):
 
 ```
 $ docker run -d -p 8000:8000 govatar-net
