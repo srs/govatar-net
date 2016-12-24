@@ -1,5 +1,5 @@
 PLATFORMS := linux/amd64 windows/amd64/.exe windows/386/.exe darwin/amd64
-VERSION = 0.1.0
+VERSION = 0.2.0-dev
 
 TEMP = $(subst /, ,$@)
 OS = $(word 1, $(TEMP))
@@ -32,4 +32,3 @@ docker-login:
 docker-push: docker-build docker-login
 	docker push $(DOCKER_BUILD_TAG)
  	docker push $(DOCKER_LATEST_TAG)
- 

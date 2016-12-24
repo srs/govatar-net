@@ -17,6 +17,7 @@ import (
 )
 
 var (
+	// Version set by build.
 	Version = "x.x.x"
 )
 
