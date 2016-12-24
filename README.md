@@ -20,6 +20,8 @@ You can also use the `Makefile` for building on OSX, Windows and Linux:
 $ make build
 ```
 
+## Docker
+
 And if you are using Docker (see [repository](https://hub.docker.com/r/stenrs/govatar-net/)):
 
 ```
