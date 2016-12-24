@@ -1,22 +1,23 @@
 package main
 
 import (
-	"github.com/o1egl/govatar"
-	"github.com/gorilla/mux"
-	"net/http"
-	"log"
-	"image"
 	"bytes"
+	"crypto/md5"
+	"image"
 	"image/jpeg"
 	"image/png"
-	"strconv"
-	"github.com/nfnt/resize"
-	"crypto/md5"
+	"log"
+	"net/http"
 	"os"
+	"strconv"
+
+	"github.com/gorilla/mux"
+	"github.com/nfnt/resize"
+	"github.com/o1egl/govatar"
 )
 
 var (
-	Version = "0.1.0"
+	Version = "x.x.x"
 )
 
 func parseGender(str string) (govatar.Gender, []int) {

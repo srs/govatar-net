@@ -23,7 +23,7 @@ $ make build
 And if you are using [Docker](https://hub.docker.com/r/stenrs/govatar-net/):
 
 ```
-$ docker run -d -p 8000:8000 govatar-net
+$ docker run -d -p 8000:8000 stenrs/govatar-net
 ```
 
 ## Using
