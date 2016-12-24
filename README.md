@@ -26,6 +26,15 @@ And if you are using [Docker](https://hub.docker.com/r/stenrs/govatar-net/):
 $ docker run -d -p 8000:8000 stenrs/govatar-net
 ```
 
+Or if you are using `docker-compose`, then add the following entries to `docker-compose.yml`.
+
+```yml
+govatar:
+  image: stenrs/goavatar-net
+  ports:
+    - "8000:8000"
+```
+
 ## Using
 
 When starting the server it will default start on port `8000`. You can change this by setting the OS environment variable `PORT`. The server exposes one endpoint that renders the avatar.
